@@ -24,7 +24,7 @@
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
   <project path="bionic" name="platform/bionic" revision="3d11bf0f3f3cf848f6f1e8449bf8736d8d1c78a3"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="fadc5ac81d6400ebdd041f7d4ea64021596d6b7d"/>
+  <!--<project path="bootable/recovery" name="platform/bootable/recovery" revision="fadc5ac81d6400ebdd041f7d4ea64021596d6b7d"/>-->
   <project path="device/common" name="device/common" revision="7d4526582f88808a3194e1a3b304abb369d2745c"/>
   <project path="device/sample" name="device/sample" revision="ef228b8b377a9663e94be4b1aeb6c2bf7a07d098"/>
   <project path="external/apache-http" name="platform/external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f"/>
@@ -81,7 +81,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" revision="bfc8e01b7b0d5ea70ce89d0409b72b7f7d540f43"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="a9b677fce432b29ab8f61e13796f34880dc0fe0f"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="153d0f1a27e0a157cabb6ca9d0d88248630f5695"/>
-  <project path="hardware/ril" name="platform/hardware/ril" revision="300105d1487f5238940c18792b879793826b61f4"/>
+  <!--<project path="hardware/ril" name="platform/hardware/ril" revision="300105d1487f5238940c18792b879793826b61f4"/>-->
   <project path="libcore" name="platform/libcore" revision="fc294a48d80d9e2b2ac126edf93ad316f5f6cf72"/>
   <project path="ndk" name="platform/ndk" revision="2d77f5a05f60029c981f299b222cfe28db18ccf7"/>
   <project path="prebuilt" name="platform/prebuilt" revision="0e104261b6d33f87e9f86ff4249bcc0306ab278b"/>
@@ -116,5 +116,7 @@
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="tpruvot/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
+  <project path="hardware/ril" name="tpruvot/android_hardware_ril" remote="github" revision="ics" />
+  <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" remote="github" revision="ics" />
 
 </manifest>
