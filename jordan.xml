@@ -32,7 +32,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" revision="aosp-new/ics-plus-aosp" />
+  <project path="bionic" name="platform/bionic" />
   <!--<project path="bootable/recovery" name="platform/bootable/recovery" />-->
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
